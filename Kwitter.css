@@ -1,0 +1,16 @@
+body {
+    background: linear-gradient(lightblue 0%, cornflowerblue 50%, lightblue 100%);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.login_div
+{
+	background: rgba(255,255,255,0.8);
+    float: none;
+    border-radius: 15px;
+}
+.logo
+{
+	width: 80px;
+    margin-top: 30px;
+    border-radius: 40px;
+}

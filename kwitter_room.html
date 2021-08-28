@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="Kwitter_room.css">
+    <title>Kwitter Room</title>
+</head>
+<body>
+    <center>
+        <button style="float: right;" class="btn btn-danger glyphicon glyphicon-log-out" onclick="logout()">logout</button>
+        <h1 class="header">
+            Kwitter
+            <sup>
+                <img src="kwitter entry.png" style="width: 150px;">
+            </sup>
+        </h1>
+        
+        <h3 class="color_white" id="user_name"></h3>
+        <div class="form-group input_div_room_page">
+            <label>#Add Room:</label>
+            <input type="text" id="room_name" class="form-control" placeholder="Room name">
+        </div>
+        <button class="btn btn-success" onclick="addroom()">#Add Room</button>
+        <div id="output">
+
+        </div>
+    </center>
+    <script src="kwitter_room.js"></script>
+</body>
+</html>

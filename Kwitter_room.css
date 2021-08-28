@@ -1,0 +1,14 @@
+body {
+    background: linear-gradient(lightblue 0%, cornflowerblue 50%, lightblue 100%);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#output
+{
+	padding: 10px; width:80%;background: rgba(255,255,255,0.8);border-radius: 15px;
+}
+.room_name
+{
+	cursor: pointer;
+	font-size: 20px;
+}
